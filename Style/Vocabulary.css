@@ -1,0 +1,11 @@
+#VocabularyMenuText{
+    color: #FF008D;
+}
+
+#DayToDay{
+  background-image: url('../Assets/Images/Vocabulary_DayToDay.png');
+}
+
+#Cool{
+  background-image: url('../Assets/Images/Vocabulary_Cool.gif');
+}

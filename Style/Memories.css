@@ -1,0 +1,19 @@
+#MemoriesMenuText{
+    color:#FF008D;
+}
+
+#Anecdote0{
+    background-image: url('../Assets/Images/Anecdotes_IAmHome.png');
+}
+
+#Anecdote1{
+    background-image: url('../Assets/Images/Anecdotes_MyAustrian.png');
+}
+
+#Picture0{
+    background-image: url('../Assets/Images/Pictures_ColorfulWindow.jpg');
+}
+
+#Picture1{
+    background-image: url('../Assets/Images/Pictures_SingleLock.png');
+}

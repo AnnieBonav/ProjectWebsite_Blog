@@ -1,0 +1,19 @@
+#IndexMenuText{
+  color: #FF008D;
+}
+
+#AnecdotesCategory{
+  background-image: url('../Assets/Images/Anecdotes.png');
+}
+
+#PicturesCategory{
+  background-image: url('../Assets/Images/Pictures.png');
+}
+
+#DayToDayCategory{
+  background-image: url('../Assets/Images/Vocabulary.png');
+}
+
+#CoolCategory{
+  background-image: url('../Assets/Images/CoolVocabulary.png');
+}

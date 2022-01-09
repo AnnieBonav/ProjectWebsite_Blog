@@ -1,0 +1,360 @@
+html{
+  background-color: pink;
+  margin: 0;
+  padding: 0;
+}
+  
+body {
+  width: 100%;
+  height: 100%;
+  
+  margin: 0%;
+  padding: 1% 0% 0% 0%;
+
+  
+  font-family: sans-serif;
+  background-color: white;
+}
+
+p{
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+/*
+@font-face {
+  font-family: "MoonFontLight";
+  src: url("http://127.0.0.1:5500/Assets/Fonts/MoonLight.otf");
+}
+  
+@font-face {
+  font-family: "MoonFontBold";
+  src: url("http://127.0.0.1:5500/Assets/Fonts/MoonBold.otf");
+}
+*/
+
+
+@font-face {
+  font-family: "MoonFontLight";
+  src: url("https://cc211010.students.fhstp.ac.at/iwt/Assets/Fonts/MoonLight.otf");
+}
+  
+@font-face {
+  font-family: "MoonFontBold";
+  src: url("https://cc211010.students.fhstp.ac.at/iwt/Assets/Fonts/MoonBold.otf");
+}
+
+  
+.my-wrapper {
+  margin: 1%;
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.my-wrapper > * {
+  flex: 1 100%;
+}
+  
+/*
+
+TOP
+
+*/
+.main-top {
+  background: white;
+  margin: 0%;
+  padding: 0%;
+}
+  
+.main-title{
+  font-family: "MoonFontLight";
+  color: #FF008D;
+  margin: 1vh 0% 1vh 0%;
+  padding: 0%;
+}
+
+.main-title:hover{
+  cursor: url("../Assets/Cursors/Link_Smaller.png"), default;
+}
+
+
+  
+.main-menu{
+    border-style: solid;
+    border-color: #FF008D;
+    border-width: 4px 0px 4px 0px;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+#singleButtonMainMenuWrapper{
+  list-style: none;
+  display: block;
+  margin: 0%;
+  padding: 0%;
+}
+  
+#mainMenuWrapper{
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content:center;
+  font-weight: bold;
+}
+
+.main-menu-element{
+  margin: 1%;
+  padding: 0%;
+}
+
+
+/*Controls how the "Memories" and "Vocabulary Sub navigation looks like (the box itself)*/
+.subnav-element{
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 10%;
+  box-shadow: 0px 8px 16px 0px #ff008c1a;
+  z-index: 1;
+  padding: 0;
+}
+
+.subnav-burger-element{
+  margin-left: 30%;
+}
+
+/*Controls how the individual elements, li, inside the MemoriesSubMenu look like*/
+.subnav-element li {
+  color: black;
+  font-size: 1.5em;
+  padding: 10px 30px 10px 30px;
+  font-family: "MoonFontLight";
+  display: flex;
+}
+
+.subnav-burger-element li {
+  color: black;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#BurgerMainMenu:hover #BurgerSubNav{
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+}
+
+/*Whenever the Memories element is hovered, the MemoriesMenuText will become pink*/
+#MemoriesMainMenu:hover #MemoriesMenuText{
+  color:#FF008D;
+}
+
+/*Whenever the Vocabulary element is hovered, the MemoriesMenuText will become pink*/
+#VocabularyMainMenu:hover #VocabularyMenuText{
+  color:#FF008D;
+}
+
+/*Whenever the MemoriesMenu elenent is hovered, the submenu will be displayed*/
+#MemoriesMainMenu:hover #MemoriesSubNav {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  
+}
+
+/*Whenever the MemoriesMenu elenent is hovered, the submenu will be displayed*/
+#VocabularyMainMenu:hover #VocabularySubNav {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  
+}
+
+/*Whenever one of the individual elements inside Memories is hovered, it will change the background color*/
+.subnav-element li:hover {
+  background-color:rgba(255, 0, 140, 0.5);
+  cursor: url("../Assets/Cursors/Link_Smaller.png"), default;
+}
+
+.menu-buttons{
+  color: black;
+  font-family: "MoonFontLight";
+  text-align: center;
+}
+
+.menu-buttons:hover{
+  color: #FF008D;
+  cursor: url("../Assets/Cursors/Link_Smaller.png"), default;
+}
+  
+  
+  
+/*
+  
+CONTENT
+  
+*/
+.main-footer {
+  display: flex;
+  width: 100vw;
+  padding: 0 2%;
+  border-style: solid;
+  border-color: #FF008D;
+  border-width: 4px 0px 4px 0px;
+  align-items: center;
+}
+
+.main-footer > img:hover{
+  cursor: url("../Assets/Cursors/Link_Smaller.png"), default;
+}
+
+/*Main content wrapper*/
+.main-content {
+  margin-top: 2%;
+  text-align: left;
+  /*background: pink;*/
+  border-radius: 8px;
+}
+  
+.main-content-title{
+  margin: 0 0 1% 0;
+  padding-left: 4%;
+  font-family: "MoonFontLight";
+  font-size: 2em;
+  color: black;
+  text-align: center;
+  /*A8005D*/
+}
+  
+  
+/*FLEX BOX*/
+  
+.categories-flex{
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.pictures-flex{
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.categories-item{
+  position: relative;
+  margin: 2%;
+  border-radius: 12px;
+  border-width: 0px;
+  background-size: cover;
+  transition-duration: 0.4s;
+  display: flex;
+  justify-content: center;
+}
+
+.pictures-item{
+  position: relative;
+  margin: 2%;
+  border-radius: 12px;
+  border-width: 0px;
+  background-size: cover;
+  justify-content: center;
+}
+
+.categories-item > p{
+  margin: 4% 0;
+  position: absolute;
+  bottom: 0;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+*{
+  cursor: url("../Assets/Cursors/Normal_Smaller.png"), default;
+}
+
+.categories-item:hover{
+  transform: translate(0, 4px);
+  cursor: url("../Assets/Cursors/Link_Smaller.png"), default;
+  box-shadow: 0px 10px 0px #A8005D3d;
+}
+  
+  
+/*
+
+SIDEBAR
+
+*/
+  
+.main-sidebar {
+  margin: 2% 1.5% 0px 0px;
+  padding: 1.5%;
+  border-width: 0px 1px 0px 0px;
+  border-style: solid;
+  border-color: #FF008D;
+}
+
+/*
+iframe{
+  margin-top: 2%;
+  width : 100%;
+  height : 480px;
+}*/
+  
+h3.main-sidebar-titles{
+  margin: 5% 0;
+  padding: 0;
+  color: #FF008D;
+}
+
+h4.secondary-sidebar-titles{
+  margin: 5% 0;
+  padding: 0;
+  color: #FF008D;
+}
+  
+p.main-sidebar-paragraph {
+  text-align: justify;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+iframe{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border: 0;
+}
+
+.huge{
+  height: 70vh;
+}
+
+.long{
+  height: 50vh;
+}
+
+.short{
+  height: 30vh;
+}

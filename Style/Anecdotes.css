@@ -1,0 +1,147 @@
+#SubNavAnecdotes{
+    background-color:rgba(255, 0, 140, 0.5);
+}
+
+
+.anecdote-picture{
+    position: relative;
+    border-radius: 12px;
+    border-width: 0px;
+    background-size: cover;
+}
+
+.anecdote-picture-long{
+    position: relative;
+    border-radius: 12px;
+    border-width: 0px;
+    background-size: cover;
+}
+
+
+.categories-item:hover{
+    transform: translate(0, 4px);
+    box-shadow: 0px 10px 0px #0081a83d;
+}
+
+
+#Anecdote0{
+    background-image: url('../Assets/Images/Anecdotes_IAmHome.png');
+}
+
+#Anecdote1{
+    background-image: url('../Assets/Images/Anecdotes_MyAustrian.png');
+}
+
+#Anecdote2{
+    background-image: url('../Assets/Images/Anecdote_DiscoveringNewWorld.png');
+}
+
+#Anecdote3{
+    background-image: url('../Assets/Images/AnecdotesPics_Alebrijes.png');
+}
+
+.pic1 { grid-area: pic1; }
+.pic2 { grid-area: pic2; }
+.pic3 { grid-area: pic3; }
+.pic4 { grid-area: pic4; }
+.pic5 { grid-area: pic5; }
+.pic6 { grid-area: pic6; }
+.text1 { grid-area: text1; }
+.text2 { grid-area: text2; }
+.text3 { grid-area: text3; }
+.text4 { grid-area: text4; }
+.text5 { grid-area: text5; }
+.text6 { grid-area: text6; }
+
+
+.grid-container{
+    background-color:rgba(255, 0, 140, 0.05);
+    border-radius: 10px;
+}
+.grid-container > div {
+    text-align: justify;
+    padding: 20px 0;
+    justify-self: center;
+}
+
+
+
+#AnecdotePic0{
+    background-image: url('../Assets/Images/AnecdotesPics_Bridge.png');
+}
+
+#AnecdotePic1{
+    background-image: url('../Assets/Images/AnecdotesPics_Quartier.png');
+}
+
+#AnecdotePic2{
+    background-image: url('../Assets/Images/AnecdotesPics_CafeSperl.png');
+}
+
+#AnecdotePic3{
+    background-image: url('../Assets/Images/AnecdotesPics_Church.png');
+}
+
+#AnecdotePic4{
+    background-image: url('../Assets/Images/AnecdotesPics_Lake.png');
+}
+
+#AnecdotePic5{
+    background-image: url('../Assets/Images/AnecdotesPics_LockBridge.png');
+}
+
+#AnecdotePic6{
+    background-image: url('../Assets/Images/AnecdotesPics_Museum.png');
+}
+
+#AnecdotePic7{
+    background-image: url('../Assets/Images/AnecdotesPics_Platz.png');
+}
+
+#AnecdotePic8{
+    background-image: url('../Assets/Images/AnecdotesPics_HighWay.png');
+}
+
+#AnecdotePic9{
+    background-image: url('../Assets/Images/AnecdotesPics_Penacho.png');
+}
+
+#AnecdotePic10{
+    background-image: url('../Assets/Images/AnecdotesPics_Cube.png');
+}
+
+#AnecdotePic11{
+    background-image: url('../Assets/Images/AnecdotesPics_Skating.png');
+}
+
+#AnecdotePic12{
+    background-image: url('../Assets/Images/AnecdotesPics_Halloween.png');
+}
+
+#AnecdotePic13{
+    background-image: url('../Assets/Images/AnecdotesPics_Mirror.png');
+}
+
+#AnecdotePic14{
+    background-image: url('../Assets/Images/AnecdotesPics_MuseumLong.png');
+}
+
+#AnecdotePic15{
+    background-image: url('../Assets/Images/AnecdotesPics_Sombreros.png');
+}
+
+#AnecdotePic17{
+    background-image: url('../Assets/Images/AnecdotesPics_Oaxaca.png');
+}
+
+#AnecdotePic18{
+    background-image: url('../Assets/Images/AnecdotesPics_Acapulco.png');
+}
+
+#AnecdotePic19{
+    background-image: url('../Assets/Images/AnecdotesPics_Trajineras.png');
+}
+
+#AnecdotePic20{
+    background-image: url('../Assets/Images/AnecdotesPics_Umbrellas.png');
+}

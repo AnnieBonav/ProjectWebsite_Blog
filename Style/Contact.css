@@ -1,0 +1,66 @@
+#ContactMenuButton{
+    color: #FF008D;
+}
+
+label{
+  font-size: 2em;
+  font-family: "MoonFontLight";
+}
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #FF008D;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #FF008D;
+  font-size: 2em;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #af0060;
+}
+
+.contact-form-title{
+  font-weight: lighter;
+  margin: 0 0 1% 0;
+  padding-left: 4%;
+  font-family: "MoonFontLight";
+  font-size: 2em;
+  color: black;
+  text-align: center;
+}
+
+.form-container {
+  border-radius: 10px;
+  background-color: rgba(255, 0, 140, 0.05);
+  padding: 20px;
+}
+
+.form-container > p{
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 2em;
+  text-align: center;
+}
+
+#country{
+  font-family: sans-serif;
+  font-size: 1.5em;
+  background-color: rgba(255, 0, 140, 0.1);
+}
